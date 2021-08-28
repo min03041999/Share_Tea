@@ -1,0 +1,33 @@
+.list_mon{
+    margin-top: 30px;
+    width: 100%;
+
+    .title_mon {
+        font-family: courier, courier new, serif;
+        font-size: 23px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        text-align: center;
+        color: #c9243a;
+    }
+
+    &_special {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        &_item{
+            width: calc(100%/4 - 25px + 25px/4);
+            margin-right: 25px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.brand{
+    width: 100%;
+    position: relative;
+    padding-top: 90px;
+
+    &-content {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        &-item {
+            width: calc(100%/2);
+            position: relative;
+            
+        }
+
+        &-item:first-child {
+            img{
+                width: 100%;
+                height: 600px;
+                object-fit: cover;
+            }
+        }
+
+        &-item:last-child {
+           .padding{
+               padding: 5px 130px 0px 25px;
+            .title {
+                font-family: courier, courier new, serif;
+                text-align: justify;
+               }
+           }
+        }
+            .title > div:first-child {
+                h2{
+                    font-size: 70px;
+                    text-align: right;
+    
+                    span{
+                        font-size: 70px;
+                        color: #c9243a;
+                    }
+                }
+    
+            }
+
+            .title > div:last-child {
+                span{
+                    line-height: 85px;
+                    font-size: 24px;
+                    color: #c9243a;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 17px;
+
+                    span {
+                        font-size: 17px;
+                        line-height: 0px;
+                        color: #c9243a; 
+                    }
+                }
+            }
+    }
+}

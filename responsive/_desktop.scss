@@ -1,0 +1,44 @@
+@media (min-width: 1401px) {
+
+}
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1280px;
+    }
+
+}
+
+@media (max-width: 1366px) {
+    .container {
+        max-width: 980px;
+    }
+
+    .container-fluid {
+        max-width: 1263px;
+    }
+
+    .brand {
+        width: 100%;
+        position: relative;
+        padding-top: 40px;
+    }
+
+    .brand-content .title > div:first-child h2 {
+        font-size: 68px;
+        text-align: right;
+    }
+
+}
+
+@media (max-width: 1064px) {
+    .brand-content .title > div:first-child h2 {
+        font-size: 56px;
+        text-align: right;
+    }
+
+    .brand-content .title > div:first-child h2 span {
+        font-size: 56px;
+        color: #c9243a;
+    }
+}
+

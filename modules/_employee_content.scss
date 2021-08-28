@@ -1,0 +1,156 @@
+.title {
+    width: 100%;
+    position: relative;
+    
+    h2{
+        font-size: 60px;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 80px;
+    }
+
+    &-content{
+        text-align: justify;
+        p {
+            color: #303131;
+            font-size: 18px;
+            line-height: 26px;
+            margin-top: 20px;
+    
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.card{
+    width: 100%;
+    position: relative;
+
+    &-title{
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    &-list{
+        display: flex;
+        flex-wrap: wrap;
+
+        &-item{
+            width: calc(100%/2);
+        }
+
+        &-item:first-child {
+            text-align: right;
+        }
+    }
+
+    &-content{
+        text-align: justify;
+
+        p {
+            color: #303131;
+            font-size: 18px;
+            line-height: 12px;
+            margin-top: 20px;
+    
+            span{
+                font-weight: bold;
+            }
+        }
+
+    }
+}
+
+.benefit {
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #303131; 
+    line-height: 26px;
+
+    &-title{
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+
+    &-content {
+        text-align: justify;
+        .member-card{
+            margin-top: 30px;
+
+            h5{
+                font-size: 18px;
+            }
+
+            img{
+                padding: 10px 0px;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.use-card{
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #303131;
+
+    &-title {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+
+        &-item {
+            width: calc(100%/2);
+            text-align: center;
+
+            &-title{
+                line-height: 40px;
+            }
+
+            img{
+                width: 80%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.note{
+    width: 100%;
+    position: relative;
+    font-size: 18px;
+    color: #303131;
+    margin: 30px 0px;
+    
+
+    &-title {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+
+    &-content {
+        text-align: justify;
+        
+        p{
+            color: #303131;
+            font-size: 18px;
+            line-height: 26px;
+            margin-top: 20px;
+        }
+    }
+}

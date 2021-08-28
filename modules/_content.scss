@@ -1,0 +1,39 @@
+.list {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .title {
+        font-family: courier, courier new, serif;
+        font-size: 23px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        text-align: center;
+        color: #c9243a;
+    }
+
+    &-item{
+        width: calc(100%/3 - 20px + 20px/3);
+        padding-right: 20px;
+        &:nth-child(3) {
+            padding-right: 0;
+        }
+        
+        & .item {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+    
+            img {
+                width: 100%;
+                height: 260px;
+                object-fit: cover;
+            }
+        }
+
+       
+    }
+}

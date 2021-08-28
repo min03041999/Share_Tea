@@ -1,0 +1,80 @@
+.footer{
+    width:100%;
+    min-height: 408px;
+    background-color: #ce1c34;
+    position: relative;
+
+    &-content {
+        padding-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        &-item{
+            width: calc(100%/2 - 30px + 30px/2);
+
+            ul{
+                list-style-type: none;
+                overflow: visible;
+                background-color: transparent;
+                
+                li{
+                    float: none;
+                    padding-bottom: 20px;
+
+                    a{
+                        color: #000;
+                    }
+                }
+            }
+        }
+
+
+        &-item:first-child{
+            margin-left: 30px;
+            text-decoration: underline;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 15px;
+            font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+        }
+
+        &-item:last-child{
+            margin-right: 0;
+            ul{
+                li:first-child{
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    cursor: pointer;
+                    font-size: 15px;
+                    font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+                }
+            }
+
+            .follow{
+                pointer-events: none;
+                margin-top: 40px;
+                text-align: right;
+                
+                span{
+                font-weight: 600;
+                font-size: 15px;
+                font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+
+                    img{
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright{
+        padding-top: 50px;
+        text-align: center;
+        font: normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+        color: #303131;
+        line-height: 1.5em;
+    }
+}

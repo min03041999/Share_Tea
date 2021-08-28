@@ -1,0 +1,42 @@
+.navbar{
+    position: relative;
+    display: flex;
+    height: 50px;
+    padding: 13px 10px;
+
+    &-res{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 82%;
+    }
+
+    img{
+        object-fit: cover;
+        width: 18%;
+    }
+        
+    ul {
+        list-style-type: none;
+        margin:0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #fff;
+    }
+    
+    li a{
+        display: block;
+        color: #000;
+        text-align: left;
+        padding: 13px;
+        cursor: pointer;
+        text-decoration: none;
+        font: normal normal normal 17px/1.4em arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+    }
+    
+    li a:hover
+    {
+        color: #9b98a7;
+    }
+}
+

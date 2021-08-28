@@ -1,0 +1,59 @@
+.promotion {
+    width: 100%;
+    position: relative;
+
+    &-banner{
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &-title{
+        text-align: center;
+        font: normal normal bold 72px/1.4em arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+        margin-bottom: 30px;
+    }
+
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        font-family: courier, courier new, serif;
+
+        &-item {
+            width: calc(100%/3 - 20px + 20px/3);
+            padding: 20px 0px;
+            padding-right: 20px;
+            cursor: pointer;
+
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+
+            &-content{
+                font-size: 15px;
+
+                &-title{
+                    h2 {
+                        font-size: 18px;
+                    }
+                }
+
+                &-img{
+                    margin-top: 10px;
+
+                    img{
+                        width: 5%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+
+        &-item:last-child {
+            padding-right: 0;
+        }
+    }
+}

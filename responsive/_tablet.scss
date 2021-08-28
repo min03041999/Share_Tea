@@ -1,0 +1,78 @@
+@media (max-width: 1024px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .navbar li a{
+        font: normal normal normal 16px/1.4em arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+    }
+
+
+}
+
+@media (max-width: 998px) {
+    .navbar li a {
+        font: normal normal normal 16px arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+    }
+}
+
+@media (max-width: 880px) {
+    .container {
+        max-width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .navbar {
+        padding: 13px 0;
+    }
+    .navbar img {
+        width: 16%;
+    }
+    .navbar-res {
+        width: 84%;
+    }
+    .navbar li a {
+        padding: 10px;
+        font: normal normal normal 15px arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+    }
+}
+
+
+
+@media (max-width: 810px)
+{
+    .container {
+        max-width: 100%;
+    }
+
+    .navbar li a {
+        padding: 10px;
+        font: normal normal normal 14px arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+    }
+}
+
+
+@media (max-width: 786px)
+{
+    .container {
+        max-width: 100%;
+    }
+
+    .navbar img {
+        width: 18%;
+    }
+
+    .navbar li a {
+        padding: 10px;
+        font: normal normal normal 13px arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+    }
+
+    .list .title {
+        font-family: courier, courier new, serif;
+        font-size: 20px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        text-align: center;
+        color: #c9243a;
+    }
+}

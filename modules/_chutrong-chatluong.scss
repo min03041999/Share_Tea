@@ -1,0 +1,45 @@
+.chutrong-chatluong {
+    width: 100%;
+    position: relative;
+
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+
+        &-item {
+            width: calc(100%/2);
+        }
+
+        &-item:first-child {
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &-item:last-child {
+           .padding{
+               padding: 20px 130px 0px 25px;
+            .title{
+                text-align: justify;
+                font-family: courier, courier new, serif;
+            }
+           }
+        }
+
+        &-item:last-child > div:first-child {
+            h2 {
+                font-size: 24px;
+                color: #c9243a;      
+            }
+        }
+
+        &-item:last-child > div:last-child {
+            p {
+                margin-top: 40px;
+                font-size: 17px;   
+            }
+        }
+
+    }
+}
